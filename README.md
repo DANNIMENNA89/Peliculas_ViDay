@@ -39,7 +39,7 @@ Primero, clona el repositorio a tu máquina local:
 - git clone https://github.com/tu-usuario/tu-repositorio.git
 - cd tu-repositorio
 
-### 2. Revisa el archivo .env, el cual se encuentra en el directorio raíz del proyecto y actualiza las variables de entorno, si lo ves conveniente
+### 2. Revisa el archivo .env, el cual se encuentra en el directorio raíz del proyecto y actualiza las variables de entorno, si lo ves conveniente.
 
 ### 3. Si en el archivo .env de del directorio raiz, has modificado el puerto BACKEND_PORT, dirigete al archivo .env que se encuentra en la carpeta frontend, y modifica con el puerto la variable REACT_APP_BACKEND_URL.
 
