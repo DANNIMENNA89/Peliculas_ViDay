@@ -1,5 +1,23 @@
+:root{
+  --color-1: #A569BD ;
+  --color-2: #FDFEFE ;
+  --color-3: #6C3483
+}
+
+html,
+body {
+  background-image: url('../public/cine.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  height: 100%;
+}
+
+
 .App {
   text-align: center;
+  color: var(--color-2);
+  min-height: 100vh; 
 }
 
 .App-logo {
@@ -35,4 +53,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button{
+  background-color: var(--color-3);
+  color: var(--color-2);
+  border-radius: 5%;
+}
+
+button:hover {
+  opacity: .5;
+}
+
+button.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
 }
