@@ -53,7 +53,7 @@ Primero, clona el repositorio a tu máquina local:
 
 Esto construirá las imágenes de Docker para el frontend y el backend, y levantará los contenedores junto con un contenedor de MongoDB. 
 
-### 5. Si quieres realizar las pruebas unitarias de los endpoint´s realizadas
+### 5. Si quieres realizar las pruebas unitarias de los endpoint´s realizadas:
 
 - cd backend
 - pytest test.py
