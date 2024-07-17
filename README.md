@@ -28,8 +28,12 @@ Se utiliza MongoDB como base de datos para almacenar la información de las pel�
 - **Bootstrap:** Utilizado para el diseño y la interfaz de usuario.
 - **Toastify:** Para mostrar alertas y notificaciones en la aplicación.
 - **Cloudinary:** Para la gestión de imágenes, permitiendo almacenar y servir imágenes de manera eficiente.
-  
 
+### Pruebas Unitarias
+  
+Se han incluido pruebas unitarias para verificar el funcionamiento adecuado del backend utilizando el framework pytets.
+
+  
 ## Instrucciones de Ejecución
 
 ### 1. Clonar el Repositorio
@@ -48,3 +52,9 @@ Primero, clona el repositorio a tu máquina local:
 - docker-compose up --build
 
 Esto construirá las imágenes de Docker para el frontend y el backend, y levantará los contenedores junto con un contenedor de MongoDB. 
+
+### 5. Si quieres realizar las pruebas unitarias de los endpoint´s realizadas
+
+- cd backend
+- pytest test.py
+
